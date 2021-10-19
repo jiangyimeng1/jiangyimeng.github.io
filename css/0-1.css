@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+body{
+    min-height: 100vh;
+    /*背景图片路径*/
+    background: url(../图片/0.0.jpg) no-repeat; 
+    background-size:100% 100%;
+    font-family: "微软雅黑";
+}
+
+/*导航*/
+#navigate{
+    width: 80%; 
+    height: 50px;
+    margin: auto;
+    background-color: rgba(33, 130, 240, 0.8) ;
+}
+
+/*标签*/
+.labels{
+    border-bottom:solid gainsboro 1px;
+    float: left;
+    /*标签宽度*/
+    width: 20%;
+    line-height: 50px;
+    font-size: 20px;
+    }
+
