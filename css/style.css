@@ -46,9 +46,9 @@ html{
 }
 
 .logo{
-  width: 35px;
+  width: 32px;
   height: 32px;
-  background-image: url(../images/logo1.jpg);
+  background-image: url(../images/logo2.jpg);
   background-size: contain;
 }
 
