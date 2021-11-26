@@ -1,0 +1,35 @@
+/*居中*/
+#home .inner-width{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+  }
+
+
+  #home .buttons{
+    margin-top: 60px;
+  }
+  
+
+  #home .buttons a{
+    display: inline-block;
+    margin: 15px 30px;
+    color: #48dbfb;
+    font-size: 15px;
+    font-weight: 500;
+    width: 180px;
+    border: 1px solid #48dbfb;
+    padding: 14px 0;
+    border-radius: 6px;
+    transition: .2s linear;
+  }
+  
+  #home .buttons a:hover,
+  #home .buttons a:nth-child(2)
+  {
+    background-color: #2ad5fc;
+    color: rgb(255, 255, 255);
+  }
+  
